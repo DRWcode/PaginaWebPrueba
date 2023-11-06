@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.carousel-inner img {
+    height: 88vh !important;
+    object-fit: contain;
+}
+
+.img-article {
+
+    height: 75% !important;
+}
+
+.my-round {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% !important;
+    box-shadow: 4px 12px 20px rgb(0, 0, 0, 0.3);
+
+}
+
+.my-list-footer li {
+    justify-content: center !important;
+    align-items: center;
+
+}
+
+.social-media {
+    justify-content: center !important;
+    align-items: center;
+
+}
+
+@media(max-width:450px) {
+    .carousel-inner img {
+        height: auto;
+    }
+
+}
